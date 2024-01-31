@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cars Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">ÖMER|BAĞLAN</div>
+        <ul class="menu-links">
+            <li class="gallery" id="gallery">Gallery</li>
+        </ul>
+    </div>
+    <!-- HOME -->
+    <section class="home" id="home">
+    <!-- CONTAİNER -->
+    <div class="container" id="container">
+        <h1 class="title">Car Gallery</h1>
+        <div class="input">
+            <input type="text" class="input-text" id="input-text" onkeyup="Search()" placeholder="Search for a car">
+            <i class="fas fa-search"></i>
+        </div>
+        <!-- CONTAİNER-LİST -->
+        <div class="list" id="list">
+            <div class="car">
+                <img src="images/Mercedes-Benz S-Class W223.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Mercedes-Benz S-Class</h2>
+                <span class="price">$400.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">60.000km</div>
+                    <div class="date">2022</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Say Hello To The 2023 BMW 3 Series.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">BMW 3 Serisi</h2>
+                <span class="price">$115.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">100.000km</div>
+                    <div class="date">2023</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Audi Q5_ black model_.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Audi Q5</h2>
+                <span class="price">$150.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">30.000km</div>
+                    <div class="date">2021</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Toyota Camry.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Toyota Camry</h2>
+                <span class="price">$125.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">150.000km</div>
+                    <div class="date">2018</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Honda Civic.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Honda Civic</h2>
+                <span class="price">$82.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">140.000km</div>
+                    <div class="date">2016</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Ford Mustang.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Ford Mustang</h2>
+                <span class="price">$156.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">50.000km</div>
+                    <div class="date">2021</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Volkswagen Golf.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Volkswagen Golf</h2>
+                <span class="price">$75.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">90.000km</div>
+                    <div class="date">2022</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Tesla Model 3.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Tesla Model 3</h2>
+                <span class="price">$95.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">65.000km</div>
+                    <div class="date">2020</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Porsche 911.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Porsche 911</h2>
+                <span class="price">$900.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">37.000</div>
+                    <div class="date">2023</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Land Rover Range Rover Evoque.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Land Rover Range Rover Evoque</h2>
+                <span class="price">$130.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">180.000km</div>
+                    <div class="date">2020</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Chevrolet Silverado.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Chevrolet Silverado</h2>
+                <span class="price">$200.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">60.000km</div>
+                    <div class="date">2021</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Mazda CX-5.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Mazda CX-5</h2>
+                <span class="price">$65.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">62.000km</div>
+                    <div class="date">2019</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Volvo XC90.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Volvo XC90</h2>
+                <span class="price">$165.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">20.000km</div>
+                    <div class="date">2023</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Subaru Outback.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Subaru Outback</h2>
+                <span class="price">$40.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">90.000km</div>
+                    <div class="date">2022</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Jeep Wrangler.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Jeep Wrangler</h2>
+                <span class="price">$150.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">40.000km</div>
+                    <div class="date">2023</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Hyundai Kona.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Hyundai Kona</h2>
+                <span class="price">$53.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">190.000km</div>
+                    <div class="date">2020</div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="car">
+                <img src="images/Kia Telluride.jpg" alt="">
+                <div class="car-details">
+                <h2 class="name">Kia Telluride</h2>
+                <span class="price">$26.000</span>
+                <div class="car-content">
+                    <div class="location">England</div>
+                    <div class="kilometer">100.000km</div>
+                    <div class="date">2019</div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
