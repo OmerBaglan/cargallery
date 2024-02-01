@@ -257,7 +257,7 @@ color: #ff002b;
     .container{
         max-height: 60rem;
         height: 100%;
-        max-width: 70rem;
+        max-width: 100rem;
         width: 100%;
     }
 }
